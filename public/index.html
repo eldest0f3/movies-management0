@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Movies App</title>
+  <link rel="stylesheet" href="style.css" />
+
+</head>
+<body>
+  <h1>🎬 Movies</h1>
+
+  <form id="movieForm">
+    <input type="text" id="name" placeholder="Movie Name" required />
+    <input type="text" id="imageURL" placeholder="Image URL" required />
+    <input type="text" id="description" placeholder="Description" required />
+    <input type="number" id="year" placeholder="Year" required />
+    <input type="text" id="category" placeholder="Category" required />
+    <button type="submit">Add Movie</button>
+  </form>
+
+  <hr />
+  <div id="movieList"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
